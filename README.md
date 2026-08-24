@@ -25,8 +25,10 @@
 
 ### 만든 것
 
-- [claude-scaffold](https://github.com/LeeYudok/claude-scaffold) — Claude Code 부트스트랩. 에이전트·스킬·훅과 P0/P1/P2 등급 규칙을 하나의 pre-commit 게이트로 묶습니다.
-- [doksam-skills](https://github.com/LeeYudok/doksam-skills) — 모바일 웹/앱 UX/UI 기획 스킬. IA와 PPT 스타일 화면설계서(HTML)를 생성합니다.
+- [agents-scaffold](https://github.com/LeeYudok/agents-scaffold) — AI 코딩 에이전트 부트스트랩(Claude Code 우선, Codex·Gemini는 AGENTS.md). 에이전트·스킬·훅과 P0/P1/P2 등급 규칙, 스택 프리셋을 하나의 pre-commit 게이트로 묶습니다.
+- [finguard](https://github.com/LeeYudok/finguard) — Semgrep + reviewdog 기반 은행권 소스코드 취약점 점검 봇. GitLab MR에 금보원 평가기준 근거를 붙인 인라인 코멘트를 답니다. Go.
+- [ai-sdlc-skills](https://github.com/LeeYudok/ai-sdlc-skills) — 기존 저장소의 버그 수정·기능 요청을 분석 → BA 문서 → 영향도 → 명세 → 구현 → QA → 배포 준비까지 추적 가능한 파이프라인으로 처리하는 에이전트 스킬 모음.
+- [doksam-skills](https://github.com/LeeYudok/doksam-skills) — 모바일 웹/앱 UX/UI 기획 스킬. Claude Code·Codex·Antigravity에서 IA와 PPT 스타일 화면설계서(HTML)를 생성합니다.
 - [doksam-ui](https://github.com/LeeYudok/doksam-ui) — 자체 호스팅 shadcn 레지스트리와 디자인 토큰 카탈로그. [ui.doksam.com](https://ui.doksam.com)
 - [oracle-us7ascii-jdbc](https://github.com/LeeYudok/oracle-us7ascii-jdbc) — US7ASCII 캐릭터셋 Oracle에서 EUC-KR 한글을 다루기 위한 JDBC 드라이버 래퍼.
 
@@ -36,6 +38,6 @@
 
 - 자체 호스팅 인프라 운영 — rootless Podman + Quadlet, nginx 리버스 프록시, PostgreSQL 단일 클러스터
 - 수집·분석 파이프라인 — 시세와 투자자 수급 데이터를 모아 Grafana로 관측
-- 문서 RAG 검색 서버와 개인 인프라용 MCP 서버들
+- 문서 RAG 검색 서버와 개인 인프라용 MCP 서버들, MR 코드리뷰 봇
 
 위 조회수 뱃지도 직접 만들어 굴리고 있습니다. GitHub이 프로필 조회수를 알려주지 않아서, 뱃지 이미지 요청을 신호로 삼아 집계합니다.
