@@ -8,6 +8,25 @@ Backend development · Self-hosted infrastructure · AI coding agents · Develop
 
 ![profile views](https://count.doksam.com/badge/profile.svg)
 
+### 대표 프로젝트
+
+AI 개발 환경 설정부터 화면 기획과 UI 구현까지, 직접 만들고 사용하는 도구입니다.
+
+| 프로젝트 | Stars | 하는 일 |
+| --- | --- | --- |
+| [agents-scaffold](https://github.com/LeeYudok/agents-scaffold) | ![GitHub stars](https://img.shields.io/github/stars/LeeYudok/agents-scaffold?style=flat-square) | **AI 코딩 에이전트 프로젝트 초기 설정.** Claude Code 중심으로 에이전트·스킬·스택 프리셋과 pre-commit 검사를 구성합니다. Codex·Gemini용 AGENTS.md, 설치 안내와 회귀 테스트를 제공합니다. |
+| [doksam-skills](https://github.com/LeeYudok/doksam-skills) | ![GitHub stars](https://img.shields.io/github/stars/LeeYudok/doksam-skills?style=flat-square) | **화면 기획부터 구현까지 연결하는 에이전트 스킬.** Claude Code·Codex·Antigravity에서 UX/UI 화면설계서와 Business Rules를 만들고 후속 구현으로 연결합니다. 산출물 미리보기와 설치 안내를 제공합니다. |
+| [doksam-ui](https://github.com/LeeYudok/doksam-ui) | ![GitHub stars](https://img.shields.io/github/stars/LeeYudok/doksam-ui?style=flat-square) | **shadcn/ui 기반 UI 컴포넌트·패턴·템플릿 카탈로그.** 데모와 코드, 디자인 토큰을 확인하고 shadcn 레지스트리로 설치할 수 있습니다. [라이브 카탈로그](https://ui.doksam.com) |
+
+### 함께 만드는 개발·운영 도구
+
+| 프로젝트 | Stars | 하는 일 |
+| --- | --- | --- |
+| [ai-sdlc-skills](https://github.com/LeeYudok/ai-sdlc-skills) | ![GitHub stars](https://img.shields.io/github/stars/LeeYudok/ai-sdlc-skills?style=flat-square) | 기존 저장소의 변경 요청을 분석·명세·구현·QA·배포 준비까지 추적하는 **Codex 개발 자동화 스킬**. 도입 안내와 단계별 산출물 문서를 제공합니다. |
+| [finguard](https://github.com/LeeYudok/finguard) | ![GitHub stars](https://img.shields.io/github/stars/LeeYudok/finguard?style=flat-square) | Go·Semgrep·reviewdog 기반 **GitLab MR 보안 코드리뷰 봇**. 취약점 점검 결과에 금융보안원 평가기준 근거와 수정 가이드를 붙입니다. 빌드·실행 방법과 탐지 범위를 문서화했습니다. |
+| [dotfiles](https://github.com/LeeYudok/dotfiles) | ![GitHub stars](https://img.shields.io/github/stars/LeeYudok/dotfiles?style=flat-square) | **zsh·Starship 셸 환경과 AI 코딩 도구 상태 표시줄 설정**. macOS·Linux 설치와 복원, Windows Git Bash 환경 구성을 안내합니다. |
+| [oracle-us7ascii-jdbc](https://github.com/LeeYudok/oracle-us7ascii-jdbc) | ![GitHub stars](https://img.shields.io/github/stars/LeeYudok/oracle-us7ascii-jdbc?style=flat-square) | Oracle US7ASCII 환경에서 **EUC-KR 한글 깨짐을 처리하는 Java JDBC 드라이버 래퍼**. 빠른 시작, 호환성, 테스트와 DBeaver 설정을 안내합니다. |
+
 ### 기술 스택
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -26,15 +45,6 @@ Backend development · Self-hosted infrastructure · AI coding agents · Develop
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Loki](https://img.shields.io/badge/Loki-F5A800?style=flat-square)
-
-### 공개 프로젝트
-
-- [agents-scaffold](https://github.com/LeeYudok/agents-scaffold) — Claude Code 중심의 AI 코딩 에이전트 프로젝트 초기 설정 도구. Codex·Gemini용 AGENTS.md도 제공하며, 에이전트·스킬·훅과 P0/P1/P2 등급 규칙, 스택 프리셋을 pre-commit 품질 검사로 묶습니다.
-- [finguard](https://github.com/LeeYudok/finguard) — Go로 만든 Semgrep·reviewdog 기반 정적 분석(SAST) 및 보안 코드리뷰 봇. 은행권 소스코드 취약점을 점검하고 GitLab Merge Request(MR)에 금융보안원 평가기준 근거를 붙인 인라인 코멘트를 답니다.
-- [ai-sdlc-skills](https://github.com/LeeYudok/ai-sdlc-skills) — AI 에이전트 기반 소프트웨어 개발 생명주기(SDLC) 자동화 스킬 모음. 기존 저장소의 버그 수정·기능 요청을 분석 → BA 문서 → 영향도 분석 → 명세 → 구현 → QA → 배포 준비까지 추적합니다.
-- [doksam-skills](https://github.com/LeeYudok/doksam-skills) — Claude Code·Codex·Antigravity용 모바일 웹·앱 UX/UI 기획 스킬. 정보 구조(IA)와 PPT 스타일의 HTML 화면설계서를 생성합니다.
-- [doksam-ui](https://github.com/LeeYudok/doksam-ui) — 자체 호스팅 shadcn UI 컴포넌트 레지스트리와 디자인 토큰 카탈로그. [ui.doksam.com](https://ui.doksam.com)
-- [oracle-us7ascii-jdbc](https://github.com/LeeYudok/oracle-us7ascii-jdbc) — Oracle US7ASCII 데이터베이스의 EUC-KR 한글 인코딩 처리를 위한 JDBC 드라이버 래퍼.
 
 ### 개발·운영 중인 작업
 
