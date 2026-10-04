@@ -55,3 +55,13 @@ AI 개발 환경 설정부터 화면 기획과 UI 구현까지, 직접 만들고
 - AI 도구 연동 — 문서 검색 증강 생성(RAG) 서버, 개인 인프라용 Model Context Protocol(MCP) 서버, GitLab MR 코드리뷰 봇
 
 위 조회수 뱃지도 직접 만들어 굴리고 있습니다. GitHub이 프로필 조회수를 알려주지 않아서, 뱃지 이미지 요청을 신호로 삼아 집계합니다.
+
+### In English
+
+I work on backend development and self-hosted infrastructure, and I build tools for AI coding agents and developer automation. I develop services in TypeScript, Node.js, and Go, then deploy and monitor them on my own Linux servers with rootless Podman, nginx, PostgreSQL, Prometheus, Grafana, and Loki.
+
+- [agents-scaffold](https://github.com/LeeYudok/agents-scaffold) — Project setup for AI coding agents, centered on Claude Code: agents, skills, stack presets, and pre-commit checks, plus AGENTS.md for Codex and Gemini.
+- [doksam-skills](https://github.com/LeeYudok/doksam-skills) — Agent skills for Claude Code, Codex, and Antigravity that turn UX/UI screen specs and business rules into implementation.
+- [doksam-ui](https://github.com/LeeYudok/doksam-ui) — A catalog of shadcn/ui-based components, patterns, and templates, installable from a shadcn registry. [Live catalog](https://ui.doksam.com)
+- [finguard](https://github.com/LeeYudok/finguard) — A GitLab merge request security code review bot built with Go, Semgrep, and reviewdog.
+- [oracle-us7ascii-jdbc](https://github.com/LeeYudok/oracle-us7ascii-jdbc) — A Java JDBC driver wrapper that fixes broken EUC-KR Korean text in Oracle US7ASCII databases.
