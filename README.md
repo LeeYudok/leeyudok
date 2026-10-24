@@ -26,6 +26,11 @@ AI 개발 환경 설정부터 화면 기획과 UI 구현까지, 직접 만들고
 | [finguard](https://github.com/LeeYudok/finguard) | ![GitHub stars](https://img.shields.io/github/stars/LeeYudok/finguard?style=flat-square) | Go·Semgrep·reviewdog 기반 **GitLab MR 보안 코드리뷰 봇**. 취약점 점검 결과에 금융보안원 평가기준 근거와 수정 가이드를 붙입니다. 빌드·실행 방법과 탐지 범위를 문서화했습니다. |
 | [dotfiles](https://github.com/LeeYudok/dotfiles) | ![GitHub stars](https://img.shields.io/github/stars/LeeYudok/dotfiles?style=flat-square) | **zsh·Starship 셸 환경과 AI 코딩 도구 상태 표시줄 설정**. macOS·Linux 설치와 복원, Windows Git Bash 환경 구성을 안내합니다. |
 | [oracle-us7ascii-jdbc](https://github.com/LeeYudok/oracle-us7ascii-jdbc) | ![GitHub stars](https://img.shields.io/github/stars/LeeYudok/oracle-us7ascii-jdbc?style=flat-square) | Oracle US7ASCII 환경에서 **EUC-KR 한글 깨짐을 처리하는 Java JDBC 드라이버 래퍼**. 빠른 시작, 호환성, 테스트와 DBeaver 설정을 안내합니다. |
+| [sonar-l10n-ko](https://github.com/LeeYudok/sonar-l10n-ko) | ![GitHub stars](https://img.shields.io/github/stars/LeeYudok/sonar-l10n-ko?style=flat-square) | **SonarQube 한국어 언어팩 플러그인.** 커뮤니티 원본을 SonarQube 25.x API에 맞게 다시 작성하고 누락된 번역을 모두 채웠습니다. 설치·빌드 방법과 호환 버전을 안내합니다. |
+
+### 오픈소스 기여
+
+- [kordoc](https://github.com/chrisryugj/kordoc) — HWP·HWPX·PDF 등 한국 문서를 Markdown으로 변환하는 라이브러리·CLI·MCP 서버. Markdown을 HWPX로 바꿀 때 중첩 인라인 강조(`**굵게 *기울임* 다시**`)가 깨지는 문제를 제보하고 수정했습니다. ([#61](https://github.com/chrisryugj/kordoc/issues/61) · [PR #62](https://github.com/chrisryugj/kordoc/pull/62))
 
 ### 기술 스택
 
@@ -65,3 +70,6 @@ I work on backend development and self-hosted infrastructure, and I build tools 
 - [doksam-ui](https://github.com/LeeYudok/doksam-ui) — A catalog of shadcn/ui-based components, patterns, and templates, installable from a shadcn registry. [Live catalog](https://ui.doksam.com)
 - [finguard](https://github.com/LeeYudok/finguard) — A GitLab merge request security code review bot built with Go, Semgrep, and reviewdog.
 - [oracle-us7ascii-jdbc](https://github.com/LeeYudok/oracle-us7ascii-jdbc) — A Java JDBC driver wrapper that fixes broken EUC-KR Korean text in Oracle US7ASCII databases.
+- [sonar-l10n-ko](https://github.com/LeeYudok/sonar-l10n-ko) — A Korean language pack plugin for SonarQube, rewritten for the SonarQube 25.x API with every key translated.
+
+Open source contribution: reported and fixed nested inline emphasis in Markdown-to-HWPX conversion for [kordoc](https://github.com/chrisryugj/kordoc), a Korean document parser ([PR #62](https://github.com/chrisryugj/kordoc/pull/62)).
