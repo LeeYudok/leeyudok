@@ -52,6 +52,6 @@ AI 개발 환경 설정부터 화면 기획과 UI 구현까지, 직접 만들고
 
 - 자체 호스팅 인프라 운영 — rootless Podman + Quadlet, nginx 리버스 프록시, PostgreSQL 단일 클러스터
 - 수집·분석 파이프라인 — 시세와 투자자 수급 데이터를 모아 Grafana로 관측
-- AI 도구 연동 — 문서 검색 증강 생성(RAG) 서버, 개인 인프라용 Model Context Protocol(MCP) 서버, GitLab MR 코드리뷰 봇
+- AI 도구 연동 — 문서 검색 증강 생성(RAG) 서버, 개인 인프라용 Model Context Protocol(MCP) 서버
 
 위 조회수 뱃지도 직접 만들어 굴리고 있습니다. GitHub이 프로필 조회수를 알려주지 않아서, 뱃지 이미지 요청을 신호로 삼아 집계합니다.
